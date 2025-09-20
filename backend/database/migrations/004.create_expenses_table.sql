@@ -1,0 +1,8 @@
+CREATE TABLE expenses (
+    id SERIAL PRIMARY KEY,
+    expense_name TEXT NOT NULL,
+    amount NUMERIC(10,2) NOT NULL,
+    category VARCHAR(50), 
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    user_id INT NOT NULL REFERENCES users(id) ON DELETE CASCADE
+);
