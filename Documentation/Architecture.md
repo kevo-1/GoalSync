@@ -9,7 +9,7 @@
 ---
 
 ## ⚙️ Backend
-- **Framework**: Node.js (Express)  
+- **Framework**: Nest.js  
 - **API Style**: REST  
 - **Authentication**: JWT (access + refresh tokens)  
 - **Realtime Updates**: WebSockets (Socket.io)  
